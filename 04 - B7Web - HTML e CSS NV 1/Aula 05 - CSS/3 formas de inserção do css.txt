@@ -1,0 +1,4 @@
+3 formas de inserção do css
+- CSS inline
+- CSS interno
+- CSS externo

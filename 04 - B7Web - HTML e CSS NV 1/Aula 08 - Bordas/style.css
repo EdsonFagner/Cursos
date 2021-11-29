@@ -1,0 +1,54 @@
+#titulo {
+    background-color: red;
+}
+
+p {
+    /*Aplicando borda em elementos*/
+    /*A borda tem 3 elementos*/
+    /*Tamanho, tipo e cor*/
+    /*border: 5px solid #00F;*/
+
+    /*Tipos de borda*/
+    /*solid*/
+    /*dotted*/
+    /*dashed*/
+    /*double*/
+    /*groove*/
+    /*inset*/
+    /*outset*/
+    /*noborder*/
+
+    /*Borda inferior*/
+    /*border-bottom*/
+
+    /*Borda superior*/
+    /*border-top*/
+
+    /*Borda direita*/
+    /*border-right*/
+
+    /*Borda esquerda*/
+    /*border-left*/
+
+    /*Inserindo borda arredondada*/
+    background-color: blue;
+    border-radius:5px;
+
+
+}
+
+div {
+    /*Transformando um quadrado em uma bola com boder radius*/
+    background-color: #00FF00;
+    width: 200px;
+    height:200px;
+    border-radius: 100px;
+    border: 3px solid darkgreen;
+}
+
+img{
+    border: 5px solid red;
+    border-radius: 5px;
+    /*Corta a imagem junto com a borda*/
+    overflow: hidden;
+}

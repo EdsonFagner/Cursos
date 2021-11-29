@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Teste</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form method="POST" action="blablabla.html">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    <!--required = não deixa o usario enviar o formulário sem preencher-->
+                    Primeiro nome:<br/>
+                    <input type="text" name="name" required minlength="2"/>
+                </label><br/>
+                <label>
+                    <!--minlenght e maxlength - definem o minimo e maximo de caracteres no campo-->
+                    Sobrenome:<br/>
+                    <input type="text" name="lastname" required minlength="2" maxlength="16"/>
+                </label><br/>
+                <label>
+                    Email:<br/>
+                    <!--pattern - Usa expressões pra definir as regras do campo -->
+                    <!--title - nesse caso seria para a pessoa conseguir identificar oq tem que escrever-->
+                    <input type="text" name="email" pattern="(^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$)" title="endereço de email" required/>
+                </label><br/>
+                <label>
+                    <!--step - define de quanto em quantos números serão pulados e só aceitará multiplos desse número no campo-->
+                    <!--min e max - definem quais os números minimo e máximo que o usuario pode por no campo-->
+                    Idade:<br/>
+                    <input type="number" name="age" required step="2" min="18" max="99"/>
+                </label><br/>
+                <label>
+                    <!--min na em datas - define qual a data minima que você pode colacar não sendo possível selecionar datas retroativas-->
+                    Data de nascimento:<br/>
+                    <input type="date" name="birthdate" required min="2021-06-14"/>
+                </label><br/>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da empresa:<br/>
+                    <input type="text" name="companyname"/>
+                </label><br/>
+                <label>
+                    Cargo na empresa:<br/>
+                    <input type="text" name="companyjobtittle"/>
+                </label><br/>
+            </fieldset>
+            <input type="submit" value="Cadastrar"/>
+        </form>    
+    </body>
+</html>

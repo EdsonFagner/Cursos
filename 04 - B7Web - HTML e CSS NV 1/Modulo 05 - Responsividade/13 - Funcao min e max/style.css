@@ -1,0 +1,6 @@
+img {
+    /*Está função pega o maior valor entre os dispostos*/
+    /*width: max(50%, 300px);*/
+    /*Está função faz o inverso da anterior*/
+    width: min(50%, 300px);
+}

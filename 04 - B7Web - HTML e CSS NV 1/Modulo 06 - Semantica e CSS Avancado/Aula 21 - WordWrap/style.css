@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.exemplo {
+    width: 150px;
+    height: 200px;
+    border: 1px solid black;
+    /*Para consertar as palavras que estão fora da div nesse exemplo usamos WordWrap*/
+    /*Essa função tem dois parâmetros*/
+    /*O primeiro é o "normal" que é o padrão*/
+    /*O outro parâmetro é o "break-word. Que faz a quebra de linha quando ultrapassa a tag*/
+    word-wrap: break-word;
+}

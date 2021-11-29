@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size:17px;
+}
+
+footer {
+    height: 100px;
+    background-color: #CCC;
+}
+
+nav {
+    height: 50px;
+    background-color: #999999;
+}

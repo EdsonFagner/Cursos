@@ -1,0 +1,17 @@
+/*Unidade de medida 'vh', está unidade de medida toma como referencia a altura do espaço 
+de visão do usuário*/
+/*Unidade de medida 'vw', está unidade de medida toma como referencia a largura do espaço 
+de visão do usuário*/
+/*As unidades de medida acima funcionam como a porcentagem do ponto de referencia*/
+/*Unidade de medida 'vmin', está unidade de medida toma como referencia em porcentagem o 
+valor menor entre a altura e a largura da tela*/
+/*Unidade de medida 'vmax', está unidade de medida toma como referencia em porcentagem o 
+valor maior entre a altura e a largura da tela*/
+/*Tanto o 'vmin' quanto o 'vmax' eles não funcionam muito bem no windows explorer*/
+body {
+    margin: 0;
+}
+.box {
+    background-color: #999;
+    width: 100vw;
+}

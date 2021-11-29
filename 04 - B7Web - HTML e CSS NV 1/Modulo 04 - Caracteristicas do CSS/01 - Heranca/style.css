@@ -1,0 +1,17 @@
+/*Geralmente as propriedades que são herdadas são as de texto*/
+/*border é uma propriedade que não é extrapolado para as herenças*/
+body {
+    margin: 0;
+    color: aqua;
+}
+.container {
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #CCC;
+    color: #FF0000;
+    font-size: 30px;
+    border: 3px solid black;
+}
+.container strong{
+    border: 3px solid mediumaquamarine;
+}

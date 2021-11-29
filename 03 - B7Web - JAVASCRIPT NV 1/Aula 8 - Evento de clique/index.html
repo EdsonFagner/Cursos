@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Curso de Java</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+	<body>
+        <!--Usando evendo quando clicar em um título.-->
+        <!--<h1 id="titulo" onclick="alert('clicou')">Seja bem vindo(a)</h1>-->
+
+        <!--Usando o evento quando o mouse estiver em cima do título.-->
+        <!--<h1 id="titulo" onmouseover="console.log('Passou o mouse')">Seja bem vindo(a)</h1>-->
+
+        <!--Usando o evento quando tirar o mouse de cima do título.-->
+        <!--<h1 id="titulo" onmouseout="console.log('Tirou o mouse')">Seja bem vindo(a)</h1>-->
+
+        <!--Combinando eventos-->
+        <h1 id="titulo" onclick="console.log('clicou')" 
+        onmouseover="console.log('Passou o mouse')" 
+        onmouseout="console.log('Tirou o mouse')">Seja bem vindo(a)</h1>
+
+        <input id="campo" type="text" name="usuario" value="Nome do Usuário"/>
+
+        <!--Quando clicar no botão executar função-->
+        <!--<button onclick="clicou()">Clique em mim</button>-->
+
+        <!--Quando clicar no butão executar codigo JS direto-->
+        <!--<button onclick="document.getElementById('titulo').innerHTML='Texto 2'">Clique em mim</button>-->
+
+        <!--Quando clicar alterar o texto do botão-->
+        <!--<button onclick="this.innerHTML='Clicou!'">Clique em mim</button>-->
+
+
+		<script src="script.js"></script>
+	</body>
+</html>

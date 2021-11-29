@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.container {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    /*As divs ficam no inicio da tela*/
+    /*align-items: flex-start;*/
+    align-items: center;
+    /*Adiciona quebra de linha, quando chega ao limite de itens na tela dependendo do tamanho dos itens eles descem*/
+    flex-wrap: wrap;
+    /*Alinha todos os conteúdos, align content serve p/ quando tem mais de um conteúdo/wrap(quebra de linha)*/
+    /*(space-between)*/ /*Alinha os conteúdos com espaço igual entre eles no meio.*/
+    /*(space-around)*/ /*Alinha os conteúdos com espaço igual entre eles em cima e no meio.*/
+    align-content: flex-end;
+    background-color: #DDD;
+    height:500px;
+}
+
+.container div {
+    width: 100px;
+    height:100px;
+    background-color: #FF0000;
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+}
+
+.div10 {
+    /*Diz que o alinhamento desse item em específico será esse*/
+    /*align-self: flex-start;*/
+    /*Este comando serve para trocar a posição do item, nesse exemplo com o número '1' o item ficam por ultimo*/
+    order: 1;
+}
+.div14{
+    /*Na conjuntura atual este item fica após o item 1 contando da direita para esquerda após todos os outros itens*/
+    order: 2;
+    /*Quando as ordens não vem específicas nos itens eles recebem order '0'*/
+    /*Para por itens antes dos com order '0' é só colocar números negativos*/
+}

@@ -1,0 +1,13 @@
+/*Unidade de medida 'px' que vem de pixels*/
+/*Unidade de medida 'pt' que vem de points, mais utilizado para fontes porque oque aparece no monitor na hora de imprimir fica parecido*/
+/*Unidade de medida 'in' que vem de polegadas*/
+/*Unidade de medida 'cm' que vem de centímetros*/
+/*Unidade de medida 'mm' que vem de milímetros*/
+body {
+    margin: 0;
+}
+.container {
+    width: 100mm;
+    height: 100mm;
+    background-color: #999;
+}

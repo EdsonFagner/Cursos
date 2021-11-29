@@ -1,0 +1,13 @@
+body {
+    margin: 0%;
+}
+
+.container {
+    /*
+    Está função faz com que tenha um espaço entre o container e o final da tela a partir de calculos mantendo a proporção
+    quando diminuimos a tela
+    */
+    width: calc(100% - 20px);
+    height: 200px;
+    background-color: #CCC;
+}

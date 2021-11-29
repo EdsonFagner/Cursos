@@ -1,0 +1,44 @@
+/*para aplicar um parâmetro a todos os elementos da tela se pôe dentro de " *{} " */
+*{
+    /*Fazendo com que os elementos tenham o tamanho real adicinado independente do padding e borda*/
+    /*Esse parâmetro diz que o elemento é definido pelo tamanho do conteúdo dele*/
+    /*box-sizing: content-box;
+    /*Esse parêmetro diz que o elemento inclui a borda e o padding*/
+    box-sizing: border-box;
+}
+
+body{
+    margin:0px;
+}
+
+.exemplo{
+    background-color: #00FF00;
+    /*Podemos definir várias formas de ajustar o valor do tamanho*/
+    /*Temos a porcentagem*/
+    /*Que faz o elemento pegar quantos por cento do espaço que ele tem*/
+    /*Exemplo: Se o elemento estiver no body pega a tela inteira*/
+    /*Se o elemento está dentro de outro com espaço menor é a porcentagem em cima daquele espaço*/
+    width: 400px;
+    /*Aqui temos por pixels*/
+    height: 400px;
+    /*Aqui temos automático*/ 
+    /*Preenche até o final do espaço ou ao encontrar outros elementos quando for uma div*/
+    /*Quando for uma img preenche apenas até o tamanho normal da imagem*/
+    /*width: auto;*/
+    /*Aqui temos a herança, o elemento herda o tamanho do elemento anterior*/
+    /*height: inherit;*/
+    border: 5px solid #000;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+/*img{
+    /*Definindo a largura da imagem como herança da div em que ela está*/
+    /*width:inherit;
+    /*Definindo um tamanho máximo em que a largura da div pode chegar*/
+    /*max-width: 450px;
+    /*Definindo uma largura minima para a imagem*/
+    /*A imagem não poderá ter valor menor que este de largura quando aplicamos esse parâmetro*/
+    /*min-width: 100px;
+}*/

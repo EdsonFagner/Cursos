@@ -1,0 +1,16 @@
+/*'object-fit: fill' Está opção é a que já vem como padrão e mantém a imagem destorcida dentro 
+dá área disponível*/
+/*'object-fit: contain' Está opção diminui a imagem mantendo a proporção de forma que a imagem 
+apareça inteira no espaço disponível adicionando bordas transparentes nas sobras*/
+/*'object-fit: cover' Está opção ajusta a imagem proporcional sem distorção, mas corta 
+as sobras para que a imagem se adeque no espaçõ disponível, está opção mantém o corte sempre 
+centralizado e é uma das mais utilizadas*/
+/*'object-fit: none' Está opção mantém a imagem na dimensão orinal, mas corta todas as sobras 
+para que a imagem se adeque ao espaço disponível*/
+/*'object-fit: scale-down' Está opção diminui o tamanho e a proporção da imagem para que 
+ela se adeque ao espaço disponível*/
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: contain;
+}

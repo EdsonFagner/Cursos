@@ -1,0 +1,27 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.exemplo {
+    width:500px;
+    height: 200px;
+    /*Proteção para se o gradiente não pegar no navegador*/
+    /*background-color: blue;
+    /*Comando para fazer degradê*/
+    /*Por padrão nos parâmetros primeiro inserimos a direção, primeira cor e depois a segunda cor*/
+    /*Se tiver mais cores podemos ir adicionando*/
+    /*se não tivermos a direção definida podemos adicionar as cores*/
+    background:linear-gradient(-75deg, green, yellow);
+    /*Comando para pegar no mozila*/
+    background:-moz-linear-gradient(-75deg, green, yellow);
+    /*Comando para pegar no opera*/
+    /*background:-o-linear-gradient(green, yellow);
+    /*Comando para pegar no safari versão abaixo da 6*/
+    /*background:-webkit-linear-gradient(green, yellow);
+    /*Podemos por a direção em graus exemplo="-75deg"*/
+
+}

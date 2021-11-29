@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+
+        <h1>Página de teste</h1>
+
+        <h2>Área de Cadastro</h2>
+
+            <form action="paginas/login.html" method="GET">
+                
+                <!--Tag label é utilizada para indicar ao usuário oque fazer no campo ou adicionar um texto qualquer antes do campo-->
+                <!--Podemor por um atributo for="" no label para se referir ao campo ao qual ele faz parte-->
+                <!--Quando adicionamos o for="" ao label, ao clicar no label ele seleciona o campo ao qual ele faz parte-->
+                <label for="nome">Nome Completo:</label><br/>
+                <input type="text" name="nome" id="nome"/><br/><br/>
+
+
+                <!--Exemplo para mostrar o quão efetivo é o for no label-->
+                <input type="checkbox" id="teste">
+                <label for="teste">Eu declaro que li e aceito os termos de uso.</label>
+                <a href="#" style="font-size: 13px;">Termos de uso.</a>
+                <br/>
+                <input type="submit" value="Fazer Cadastro" /><br/><br/><br/>
+
+                <!--Outra forma de usar o label com input dentro-->
+                <!--Tambem podemos usar o checkbox dessa forma-->
+                <label>
+                    Nome Completo:
+                    <br/>
+                    <input type="text" name="nome2"/>
+                </label>
+                
+            </form>
+
+        <h2>Área de Login</h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

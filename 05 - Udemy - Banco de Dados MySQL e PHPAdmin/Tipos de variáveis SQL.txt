@@ -1,0 +1,47 @@
+Linguagem SQL
+
+Variáveis
+
+char -> Caracteres (string) de tamanho fixo
+varchar -> Caracteres (string) de tamanho variável (255 caracteres)
+int -> Números inteiros
+float, double -> Números fracionários (flutuante)
+date -> data no formato MySQL (ano-mes-dia)
+not null -> indica que o atributo não pode ser nulo (deve possuir valor)
+auto_increment -> indica que o valor do campo será incrementado automáticamente
+primary key -> indica que o atributo é uma chave primária (identificador único)
+foreign key -> indica que o atributo é uma chave estrangeira (chave primária de outra tabela)
+text -> armazena texto (não deve ser do tipo not null)
+
+Linguagem DML
+
+INSERT (adicionar dados)
+
+UPDATE (atualizar dados)
+
+DELETE (deletar dados)
+
+Linguagem DDL
+
+CREATE TABLE (criar tabelas)
+
+ALTER TABLE (altera tabelas)
+
+DROP TABLE (apaga tabelas)
+
+Linguagem DQL
+
+SELECT (comando usado para realizar buscas)
+
+Ex: SELECT * FROM TABELA (buscar por tabela)
+
+Cláusulas: 
+
+FROM -> relaciona com a tabela o comando
+
+WHERE -> indica as condições
+
+GROUP BY -> realiza agrupamentos
+
+ORDER BY -> ordena os dados
+

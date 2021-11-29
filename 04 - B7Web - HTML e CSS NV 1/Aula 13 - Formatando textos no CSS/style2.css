@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+}
+
+p {
+    color:#0000FF;
+    font-size:20px;/*Troca o tamanho da fonte*/
+    /*font-weight: bold;/*Troca a fonte para negrito*/
+    font-family: Helvetica;/*Troca o tipo da fonte*/
+    text-align: left;/*Muda o alinhamento da fonte*/
+    /*text-transform: uppercase;/*Transformar o texto em caixa alta*/
+    /*text-transform: lowercase; Trasforma o texto em caixa baixa */
+    /*letter-spacing: 5px;/*Espaçamento entre uma letra e outra*/
+    /*word-spacing: 100px;/*Espaçamento entre uma palavra e outra*/
+    /*line-height:25px;/*Para modificar o espaçamento da linha de cima*/
+    text-shadow: 1px 2px 3px #000000;/*Sombra no texto, tem 4 parametros, 1-Distancia p/direita, 2-Distancia p/ baixo, 3-Esfumaçamento da sombra, 4-Cor*/
+
+}

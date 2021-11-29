@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+
+        <h1>Página de teste</h1>
+
+        <h2>Área de Cadastro</h2>
+
+            <form action="paginas/login.html" method="GET">
+
+                <!--tag <select></select>-->
+                <!--Ela serve para a pessoa clicar e escolher a opção que ela quer-->
+                <!--Uma das aplicações é para filtragem de itens em sites de vendas-->
+                <!--Essa tag tem uma propriedade name="" para identificar a qual grupo esta inserido-->
+                <!--tag <option></option> utilizada dentro do select para por as opções-->
+                <!--Se quisermos enviar outro valor que não seja o conteudo do option botamos o atributo value=""-->
+                <!--Podemos adicionar também mais dois atributos ao select size="" e multiple-->
+                <!--O pprimeiro para adicionar quantas opções o usuário pode selecionar-->
+                <!--E o segundo pra dizer que o select receberá multiplas opções-->
+                <!--Quando queremos que o campo receba mais de um valor adicionamos "[]" apos o name-->
+                <select name="ordenacao" size="2" multiple>
+                    <!--Quando não especificado o atributo value o valor que é enviado é o mesmo que está sendo exibido-->
+                    <!--Quando botamos o atributo selected em uma option ela fica selecionada por padrão-->
+                    <!--Para não exibir opção padrão colocamos um option sem nada como primeiro-->
+                    <option value="1">Mais relevantes</option>
+                    <option>Menor preço</option>
+                    <option selected>Maior preço</option>
+                </select>
+
+                <input type="submit" value="Fazer Cadastro" />
+            </form>
+
+        <h2>Área de Login</h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

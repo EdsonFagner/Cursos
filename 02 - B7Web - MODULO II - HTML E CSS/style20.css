@@ -1,0 +1,32 @@
+body {
+	margin:0;
+}
+.texto {
+	width:700;
+	height:500;
+	background-color:#EEEEEE;
+
+
+	color:red;
+	font-size:20px;
+	font-family:Verdana;
+	/* Para adicionar mais de uma fonte caso o pc não tenha como padrão a primeira escolhida é só colocar "," e por as outras*/
+	font-weight:bold;
+	/*no font-weight tambem pode ser setado por numeração ex.: 200, 400 e etc...*/
+	text-align:center;
+	/*text-align para alinhamento do texto*/
+	text-transform:uppercase;
+	/*Para transformar o texto todo para caixa alta ou baixa com a opção "lowercase"*/
+	text-decoration:underline;
+	/*Para decorar o texto como por exemplo por underline*/
+
+
+	margin:auto;
+	/*apenas margin aplica para todas as margens*/
+	margin-top:20px;
+	/*margin-top apila apenas para a margem superior*/
+	padding-top:20px;
+	/*aplica margem para textos inseridos*/
+
+
+}

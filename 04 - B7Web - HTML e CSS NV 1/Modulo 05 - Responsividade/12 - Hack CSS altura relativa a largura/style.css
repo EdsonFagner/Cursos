@@ -1,0 +1,23 @@
+.video{
+    /*Definindo largura para ficar responsivo*/
+    width: 100%;
+    /*definindo largura maxima para não ficar muito grande quando estiver em tela cheia*/
+    max-width: 800px;
+    margin: auto;
+}
+.video-area{
+    position: relative;
+    height: 0px;
+    background-color: #CCC;
+    /*Segundo calculos de porcentagens de full HD '(720/1080)*100=56,25' temos a altura setada em proporção a largura definida anteriormente*/
+    padding: 0px 0px 56.25%;
+}
+.video-area iframe{
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px;
+}

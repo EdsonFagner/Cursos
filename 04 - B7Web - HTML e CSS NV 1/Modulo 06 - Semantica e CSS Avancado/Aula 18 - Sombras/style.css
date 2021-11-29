@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    /*Para aplicar as sombras precisamos definir 4 propriedades*/
+    /*O primeiro valor é a distancia horiizontal da sombra*/
+    /*Podemos por valores negativos ou positivos*/
+    /*Se botarmos valores negativos a sombra sai para o lado esquerdo, positivos direito*/
+    /*O segundo valor é a distância vertical*/
+    /*Valor negativo pra baixo e valor positivo pra cima*/
+    /*O terceiro valor é a quantidade de esfumaçamento que terá a sombra*/
+    /*O ultimo valor é a cor que terá a sombra*/
+
+    /*Para por sombra em todos os lados é só zerar os dois primeiros valores e apliar o esfumaçamento*/
+
+    box-shadow: 5px 5px 5px #888;
+}
+
+/*Podemos aplicar sombras em um elemento ou em um texto*/
+
+.exemplo2 {
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    margin-top: 100px;
+    color:green;
+    /*Para aplicar sombras no texto usamos outro comando*/
+    /*As propriedades são iguais a do exemplo anterior*/
+    text-shadow: 1px 1px 1px #888;
+    
+}

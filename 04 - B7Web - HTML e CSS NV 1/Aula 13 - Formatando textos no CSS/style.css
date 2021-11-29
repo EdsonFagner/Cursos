@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+}
+
+p {
+    color:#0000FF;
+    font-size:30px;/*Troca o tamanho da fonte*/
+    font-weight: bold;/*Troca a fonte para negrito*/
+    font-family: Helvetica;/*Troca o tipo da fonte*/
+    text-align: left;/*Muda o alinhamento da fonte*/
+    /*text-align: center; Alinhamento ao centro */
+    /*text-align: right; Alinhamento a direita */
+    /*text-align:justify Texto justificado */
+}
+
+a {
+    text-decoration: none;/*Tirando a decoração do texto como por exemplo: underline em baixo de link*/
+    /*text-decoration: overline; Texto é decorado com linha acima dele */
+    /*text-decoration:line-through; Texto é riscado com a linha */
+
+}
+
+a:hover {
+    text-decoration: underline;
+}

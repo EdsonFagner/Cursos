@@ -1,0 +1,16 @@
+/*Tamanhos de telas mais usados
+320 celular comum
+480 Celular de tela grande
+760 Tablet
+960 PC
+1200 PC
+1600 PC
+*/
+body {
+    margin: 0;
+    color: red;
+}
+h1 {
+    border: 2px solid currentColor;
+}
+

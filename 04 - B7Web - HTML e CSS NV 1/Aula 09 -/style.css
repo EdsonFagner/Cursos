@@ -1,0 +1,18 @@
+body{
+    margin:0px;
+}
+
+.exemplo{
+    border: 1px solid #00FF00;
+    /*padding é usado para dar espaçamento interno entre o elemento e a borda*/
+    /*padding: 10px;*/
+    /*margin é usado para dar espaçamento externo após a borda*/
+    /*margin: 10px;
+    margin-left: 250px;
+    margin-right: 250px;*/
+    /*Posso especificar todos os lados com um comando só a ordem é começando do top em sentido horário*/
+    padding: 10px 20px 30px 50px;
+    /*Também se pode usar apenas dois valores, nesse caso o primeiro é para top e botton o segundo para left e right*/
+    margin: 10px 250px;
+
+}

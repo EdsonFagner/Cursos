@@ -1,0 +1,19 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+form {
+    width: 200px;
+    padding: 25px;
+    background-color: #EEE;
+    margin: auto;
+    margin-top: 20px;
+}
+
+form input[type="password"] {
+    text-align: left;
+}

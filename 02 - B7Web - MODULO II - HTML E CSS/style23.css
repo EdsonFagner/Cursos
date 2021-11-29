@@ -1,0 +1,19 @@
+body {
+	margin:0;
+}
+a{
+	color:#000000;
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+	background-color:yellow;
+	text-transform:uppercase;
+
+
+}
+/*Quando passar o mouse em cima faça (Mais usado)*/
+a:active {
+
+}
+/*Quando clicar no link faça*/

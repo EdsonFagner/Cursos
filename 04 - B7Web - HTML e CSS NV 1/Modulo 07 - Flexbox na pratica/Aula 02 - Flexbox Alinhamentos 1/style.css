@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.container {
+    display:flex;
+    flex-direction: column;
+    /*Esta propriedade é utilizada para quebrar a linha se o elemento for maior que o espaço*/
+    /*flex-wrap:wrap;*/
+    /*Está propriedade podemos definir o wrap e o direction em uma só*/
+    /*flex-flow: row wrap;*/
+    /*Está propriedade serve para posicionar os itens dentro do container*/
+    /*Porem só funciona para alinhamento em linha/row*/
+    /*Não existe só o valor center no justify-contente*/
+    /*flex-start ---> Onde começar o flex alinha as divs*/
+    /*flex-end ---> Alinha onde o flex acaba*/
+    /*space-around ---> Alinha os itens de forma que os espaçamentos entre eles sejam iguais*/
+    /*space-between ---> O primeiro e o ultimo itens ficam colados na tela e os outros com espaços uniformes*/
+    justify-content: center;
+    /*Está propriedade também serve para alinhar itens dentro do container*/
+    /*Porém só serve para alinhamento ao centro de itens em coluna/column*/
+    /*align-items: flex-end ---> Serve para alinhar o item em baixo*/
+    /*align-items: flex-start ---> Serve para alinhar os items em cima*/
+    /*align-items: center;*/
+    background-color: #DDD;
+    height:500px;
+}
+
+.container div {
+    /*Se não tiver wrap habilitado e o tamanho das divs for maior do que o espaço ele diminui as divs para alinhar ao espaço que tem*/
+    /*Flexbox por padão não quebra a linha ele ajusta as divs para caber no espaço que tem*/
+    width: 100px;
+    height:100px;
+    background-color: #FF0000;
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+}

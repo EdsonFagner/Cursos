@@ -1,0 +1,42 @@
+h1 {
+    color:red;
+}
+
+#titulo {
+    color:green;
+}
+.texto{
+    color:blue;
+}
+img {
+ width: 300px;
+}
+
+#titulo{
+    color:red;
+    font-size:25px;
+}
+
+.texto{
+    color:orangered;
+    font-size: 25px;
+}
+
+/*Aplica nos dois elementos*/
+#titulo, .texto{
+    color: darkmagenta;
+    font-size: 25px;
+}
+
+.texto{
+    font-weight: bold;
+}
+
+#titulo{
+    font-weight: italic;
+}
+
+/*Procura um elemento dentro do outro*/
+ul li {
+    color: pink;
+}

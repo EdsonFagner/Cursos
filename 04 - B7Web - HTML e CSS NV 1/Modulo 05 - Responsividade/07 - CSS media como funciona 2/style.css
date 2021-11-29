@@ -1,0 +1,74 @@
+table, td {
+    border: 2px solid #000;
+}
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/*Para fazer alguma modificação ao imprimir*/
+@media only print {
+    /*
+    h1 {
+        font-size: 70px;
+        font-weight: normal;
+    }
+    table, td {
+        border: 0;
+    }
+    */
+    h1 {
+        display: none;
+    }
+}
+/*Faz modificações apenas na tela*/
+@media only screen{
+    h1 {
+        color: chartreuse;
+    }
+}
+/*Para aplicar as condições em todos os casos*/
+@media all {    
+    table, td {
+        border-color: cyan;
+    }
+}
+
+/*
+/Condições Adaptativas usando o media/
+
+/Se a resolução da tela for maior que 1000, ou no mínimo 1000 faça as seguintes alterações/
+@media (min-width: 1000px) {
+    body{
+        background-color: #0000FF;
+    }
+    h1 {
+        font-size: 70px;
+    }
+}
+/Se a resolução da tela for no mínimo 700px e no máximo 1000px, faça as seguintes alterações/
+@media (min-width: 700px) and (max-width: 1000px) {
+    body {
+        background-color: purple;
+
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+/Se a resolução da tela for no mínimo 300px e no máximo 700px, faça as seguintes alterações/
+@media (min-width: 300px) and (max-width: 700px) {
+    body {
+        background-color: royalblue;
+    }
+    h1 {
+        font-size: 40px;
+    }
+}
+/Se a resolução da tela for no máximo 300px, faça as seguintes alterações/
+@media (max-width: 300px) {
+    h1 {
+        font-size: 14px;
+    }
+}
+*/

@@ -1,0 +1,18 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+    background-color: #EEE;
+}
+
+/*
+form {
+    width: 200px;
+    padding: 30px;
+    background-color: #DDD;
+    margin: auto;
+    margin-top: 20px;
+}S
+*/

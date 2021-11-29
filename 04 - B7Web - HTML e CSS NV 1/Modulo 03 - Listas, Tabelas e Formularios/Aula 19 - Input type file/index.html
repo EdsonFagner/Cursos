@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Teste</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!--enctype - é usado para quando for enviar aquivos no formulário-->
+        <!--Quando não se põe o enctype pode acontecer do servidor não receber o arquivo-->
+        <form method="POST" action="blablabla.html" enctype="multipart/form-data">
+            <!--type="hidden" - Oculta o campo na página-->
+            <input type="hidden" name="country" value="BR">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro nome:<br/>
+                    <input type="text" name="name"/>
+                </label><br/>
+                <label>
+                    Sobrenome:<br/>
+                    <input type="text" name="lastname"/>
+                </label><br/>
+                <label>
+                    <!--file - para adicionar um arquivo ao campo-->
+                    <!--accept - define o tipo de arquivo que será pre-selecionado ao abrir a caixa de dialogo para iserção do arquivo-->
+                    <!--Para por pdf no accept = accept="application/pdf"-->
+                    Foto:<br/>
+                    <input type="file" name="photo" accept="image/*"/>
+                </label><br/>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da empresa:<br/>
+                    <input type="text" name="companyname"/>
+                </label><br/>
+                <label>
+                    Cargo na empresa:<br/>
+                    <input type="text" name="companyjobtittle"/>
+                </label><br/>
+            </fieldset>
+            <input type="submit" value="Cadastrar"/>
+        </form>    
+    </body>
+</html>

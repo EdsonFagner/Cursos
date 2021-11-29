@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Página Teste</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form method="GET" action="blablabla.html">
+            <!--type="hidden" - Oculta o campo na página-->
+            <input type="hidden" name="country" value="BR">
+            <fieldset>
+                <legend>Dados Pessoais</legend>
+                <label>
+                    Primeiro nome:<br/>
+                    <input type="text" name="name"/>
+                </label><br/>
+                <label>
+                    Sobrenome:<br/>
+                    <input type="text" name="lastname"/>
+                </label><br/>
+            </fieldset>
+            <fieldset>
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da empresa:<br/>
+                    <input type="text" name="companyname"/>
+                </label><br/>
+                <label>
+                    Cargo na empresa:<br/>
+                    <input type="text" name="companyjobtittle"/>
+                </label><br/>
+            </fieldset>
+            <input type="submit" value="Cadastrar"/>
+        </form>    
+    </body>
+</html>

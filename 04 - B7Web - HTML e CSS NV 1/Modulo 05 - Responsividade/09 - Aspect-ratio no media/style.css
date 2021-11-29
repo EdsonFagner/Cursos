@@ -1,0 +1,18 @@
+/*Só vai aplicar as modificações definidas se a tela for (1/1), ou seja, um quadrado perfeito*/
+@media (aspect-ratio: 1/1) {
+    body {
+        background-color: #FF0000;
+    }
+}
+/*Só vai aplicar as modificações definidas se a tela for no mínimo a proporção entre largura x altura (4/2) ou (2/1), ou seja, altura metade da largura*/
+@media (min-aspect-ratio: 2/1) {
+    body {
+        background-color: #0000FF;
+    }
+}
+/*Só vai aplicar as modificações definidas se a tela for no máximo a proporção entre largura x altura (4/2), ou seja, altura metade da largura*/
+@media (max-aspect-ratio: 1/2) {
+    body {
+        background-color: #00FF00;
+    }
+}

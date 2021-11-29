@@ -1,0 +1,13 @@
+body {
+    background-color: white;
+}
+fieldset {
+    background-color: #EEE;
+    margin-bottom: 20px;
+    border: 2px solid #FF0000;
+}
+legend {
+    background-color: #FF0000;
+    color: white;
+    padding: 5px;
+}

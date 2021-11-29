@@ -1,0 +1,30 @@
+/* Estrutura do css */
+/* "IDENTIFICAÇÃO" + "{}" */
+body {
+	background-color:#0000FF;
+	/*parametro para cor de fundo*/
+	color:#FFFFFF;
+	/*parametro para cor de todos os textos dentro do corpo*/
+
+}
+h1 {
+	color:#FF0000;
+	/*parametro para mudar a cor da letra dentro de h1*/
+
+}
+img {
+width:200px;
+/*parametro para mudar o tamanho da largura da imagem*/
+}
+.teste{
+	width:500px;
+	/*Aqui temos a classe teste sendo aplicada a largura de 500 pixels*/
+	/*Para classes usa-se o "." antes do nome*/
+}
+#titulo{
+font-size:12px;
+/*Para IDs usa-se a "#" antes do nome*/
+}
+.teste2{
+	background-color:#FFFF00;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+
+        <h1>Página de teste</h1>
+
+        <h2>Área de Cadastro</h2>
+        <!--A tag form tem duas informações essenciais-->
+        <!--Para onde vão as informações e qual a forma de envio-->
+        <!--O atributo "action" define para onde será enviado essa informações-->
+        <!--A tag "method" define o metodo de envio das informações em "GET" ou "POST"-->
+        <!--<form action="paginas/login.html" method="POST">-->
+            <!--Criando um campo para o usuário digitar seu e-mail-->
+            <!--A tag <input/> ela abre e fecha nela mesma-->
+            <!--A propriedade "type" define que tipo de entrada iremos inserir-->
+            <!--Entre as entradas temos: text, password, checkbox, radio, email-->
+            <!--A propriedade "name" insere o campo em um grupo de nome que vc escolher-->
+            <!--O input do type="radio", ele seleciona um e desceleciona o(s) outro(s) que estão no mesmo grupo"-->
+            <!--Para criar um botão de envio do formulário criamos um input com type="submit"-->
+            <!--<input type="radio" name="sexo"/>
+            <input type="radio" name="sexo"/>
+            <input type="submit" name="sexo"/>-->
+            <!--Para inserir um valor predefinido no campo usamos a propriedade value=""-->
+
+            <form action="paginas/login.html" method="GET">
+
+                <input type="text" name="usuario" value="Edson"/>
+
+                <input type="submit" value="Fazer Cadastro"/>
+            </form>
+
+
+
+        </form>
+
+        <h2>Área de Login</h2>
+        <form>
+
+        </form>
+
+    </body>
+</html>

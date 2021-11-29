@@ -1,0 +1,21 @@
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+#teste {
+    background-color: green;
+    margin-left: 100px;
+    margin-right: 100px;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+
+    /*Arredondando uma borda específica*/
+
+    border-top-left-radius: 100px;
+    /*top-left, top-right, bottom-left, bottom-right*/
+}

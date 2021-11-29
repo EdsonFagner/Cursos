@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.container {
+    /*O flexbox organiza os elementos um ao lado do outro por padrão com o tamanho do seu conteúdo
+    A direção da organização por padrão quando não especificada é horizontal*/
+    display:flex;
+    /*Esse atributo muda a direção da organização da flexbox*/
+    /*Temos como parâmetro: row, row-reverse, column e column-reverse*/
+    flex-direction: row;
+    background-color: #DDD;
+    margin: 10px;
+}
+
+/*.container div {
+    /*Faz as divs ocuparem um espaço igual dentro do que está disponível pra elas
+    flex:1;
+    background-color: red;
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+}*/
+
+
+/*As divs estando com flex 1 indica que elas estão no mesmo grupo e que elas dividirão o mesmo espaço*/
+.div1 {
+    flex:1;
+    background-color: #FF0000;
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+}
+
+.div2 {
+    flex:1;
+    background-color: #FF0000;
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+}
+
+.div3 {
+    flex:1;
+    background-color: #FF0000;
+    margin:10px;
+    padding:10px;
+    font-size: 18px;
+}

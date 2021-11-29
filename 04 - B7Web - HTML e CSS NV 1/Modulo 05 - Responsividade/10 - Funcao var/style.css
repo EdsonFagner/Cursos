@@ -1,0 +1,32 @@
+/*As variáveis só só validas dentro da tag onde é criada, para ser válidas em todos os locais usamos o ':root'*/
+:root {
+    /*Criando variável para armazenar uma cor de fundo 'background-color'*/
+    --bg-color: #FFF;
+    --bg-second: #CCC;
+    /*Criando variável para armazenar uma cor de fonte 'font-color'*/
+    --font-color: #F00; 
+}
+
+
+
+body {
+    /*Definindo cor do background com variável criada*/
+    background-color: var(--bg-color);
+}
+h1 {
+    /*Definindo cor da fonte com variável criada*/
+    color: var(--font-color);
+}
+.container {
+    /*Definindo cor de background do container com variável criada*/
+    background-color: var(--bg-second);
+    /*Definindo cor da fonte novamente com variável criada*/
+    color: var(--font-color);
+}
+
+/*Se a variável for definida incorretamente ou usarmos uma variável inexistente o navegador usa sua cor padrão*/
+
+/*
+Para definir uma outra cor para quando não tivermos a cor da variável é só por uma vírgula e adicionar a cor desejada
+ex.: background-color: var(--bg-second, #0F0); // Aqui estamos definindo a cor verde caso não funcione a variável
+*/

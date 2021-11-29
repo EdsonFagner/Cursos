@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: auto;
+    margin-top: 100px;
+    /*Para adicionarmos transição ao nosso conteúdo temos que setar uma função que diz que toda transição obedecerá esse novo padrão*/
+    /*Posso adicionar varios tipos de transição que não sejam a linear e setar o tempo que eu quero*/
+    transition: all 0.2s linear;
+}
+
+.exemplo:hover {
+    width: 300px;
+    background-color: red;
+}
+
+a {
+    color:#000;
+    margin-left: 600px;
+}
+a:hover {
+    transition: all 1s linear;
+    color:red;
+}

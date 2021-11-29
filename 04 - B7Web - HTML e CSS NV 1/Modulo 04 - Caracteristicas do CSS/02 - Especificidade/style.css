@@ -1,0 +1,12 @@
+/*Sempre que tiver modificações por herança como cor e etc... a que se sobresai é a mais específica
+ex: entre uma 'class' e uma tag como 'div' ou 'body' quem ganha é a class, entre 'body' e a 'div'
+quem ganha a disputa para fazer as modificações é a 'div' por ser mais específica*/
+body {
+    margin: 0;
+}
+body {
+    color: #FF0000;
+}
+div {
+    color: blue;
+}

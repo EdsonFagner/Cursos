@@ -1,0 +1,19 @@
+/*Unidade de medida '%' define uma porcentacem para a estrura definida, se apenas aplicarmos a 
+porcentagem ela é baseada em cima do espaço disponível total que a tag tem*/
+/*Unidade de medida 'ex', é baseada no tipo de fonte que você usa, ela equivale a altura do 'x' da 
+fonte que você está utilizando no momento, caso a fonte que você estiver utilizando não tenha letra 'x' 
+a estrutura irá se basear nos 16pixels padrões*/
+/*Unidade de medida 'ch', equivale a um espaço de 1 caractere, só funciona para fontes monoespace, que são 
+fontes que tem o mesmo espaçamento entre os caracteres*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+.box {
+    width: 300px;
+    background-color: #999;
+}
+.box-interno {
+    background-color: #333;
+    color: #FFF;
+    width: 12ch;
+}

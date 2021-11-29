@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #FFF;
+    --bg-second: #CCC;
+    --font-size: 25px;
+}
+body {
+    background-color: var(--bg-color);
+    font-size: var(--font-size);
+}
+h1 {
+    color: var(--font-color, #00F);
+}
+.container {
+    background-color: var(--bg-second);
+    color: var(--font-color);
+}
+
+@media (max-width: 450px){
+    /*Quando a tela se enquadrar nos parametros troque a variável de tamanho de fonte 'font-size', para um novo valor*/
+    :root{
+        --font-size: 15px;
+    }
+}

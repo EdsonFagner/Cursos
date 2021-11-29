@@ -1,0 +1,14 @@
+/*Formas de inserir cores
+forma 1 - '#000000'
+forma 2 - 'nomedacor'
+forma 3 - 'rgb(255,255,255)'
+forma 4 - 'hsl(100%, 0, 0)'
+forma 5 - 'currentColor' - Defini a cor do elemento para a cor do elemento anterior na hierarquia*/
+body {
+    margin: 0;
+    color: red;
+}
+h1 {
+    border: 2px solid currentColor;
+}
+

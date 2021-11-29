@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:50px;
+    font-size: 17px;
+}
+
+p {
+    color:#0000FF;
+    font-size:20px;
+    font-family: 'Chilanka', cursive;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+table {
+    width: 600px;
+    /*border: 1px solid #000;*/
+}
+/*td, th {
+    border: 1px solid #000;
+}*/
+
+table thead {
+    background-color:greenyellow;
+}
+
+table tbody {
+    background-color: rebeccapurple;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+/*Quando passar o mouse nas linhas dentro do "tbody" troca de cor*/
+tbody tr:hover {
+    background-color: rgb(211, 136, 211);
+}
+
+tbody td {
+    border-bottom: 2px solid teal;
+}
+
+/*Adicionando uma cor de fundo apenas nas linhas pares*/
+tbody tr:nth-child(even){
+    background-color: royalblue;
+}
+
+th {
+    font-weight: normal;
+}

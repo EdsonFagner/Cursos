@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lineage II Balanced</title>
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+        <script type="text/javascript">
+            window.onload = function (){
+                document.querySelector(".menuMobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex'){
+                        document.querySelector(".menu nav ul").style.display = 'none';
+                    }
+                    else {
+                        document.querySelector(".menu nav ul").style.display = 'flex';
+                    }
+                });
+            };
+        </script>
+
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="logo">
+                    <a href=""><img class="imglogo" src="assets/images/logo2.png" alt=""></a>
+                </div>
+                <div class="menu">
+                    <nav>
+                        <div class="menuMobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
+                        <ul>
+                            <li class="active"><a href="" >Home</a></li>
+                            <li><a href="">Donation</a></li>
+                            <li><a href="">Downloads</a></li>
+                            <li><a href="">Ranking</a></li>
+                            <li><a href="">Rates</a></li>
+                            <li><a href="">Login</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section id="banner">
+            <!-- <video autoplay muted loop id="myVideo">
+                <source src="../Projeto - Site com Flexbox e HTML Semantico/assets/videos/lineage2.mp4" type="video/mp4">
+            </video> -->
+                <div class="container column">
+                    <div class="banner_headline">
+                        <h1>
+                            The best experience
+                        </h1>
+                        <h2>
+                            All classes tested and balanced for a spectacular adventure.
+                        </h2>
+                    </div>
+                    <div class="banner_options">
+                        <div class="banner1">
+                            <div class="banner_title">Create Account</div>
+                            <div class="banner_desc">Create your login account to start a new adventure.</div>
+                            <a href="">Sing Up →</a>
+                        </div>
+                        <div class="banner2">
+                            <div class="banner_title">Play Now</div>
+                            <div class="banner_desc">Download the files and start playing right away.</div>
+                            <a href="">Dowloads →</a>
+                        </div>
+                        <div class="banner3">
+                            <div class="banner_title">Donations</div>
+                            <div class="banner3_column1">
+                                <div class="banner3_desc_1">200 BC -20%</div>
+                                <div class="banner3_desc_2">R$ 180,00</div>
+                            </div>
+                            <hr>
+                            <div class="banner3_column2">
+                                <div class="banner3_desc_3">150 BC -15%</div>
+                                <div class="banner3_desc_4">R$ 127,50</div>
+                            </div>
+                            <hr>
+                            <div class="banner3_column3">
+                                <div class="banner3_desc_5">100 BC -10%</div>
+                                <div class="banner3_desc_6">R$ 90,00</div>
+                            </div>
+                            <hr>
+                            <div class="banner3_button">
+                                <a href="">Donation →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>         
+        </section>
+        <section id="geral">
+            <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Newsletter</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body flex">
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">20 JUN 21</div>
+                                            <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/images/img5.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Rework in class for balanced pvp
+                                        </div>
+                                        <div class="news_resume">
+                                            We are working to adjust all classes, so we have made some changes, 
+                                            between buffs and nerfs we have the overloard with its skill reload 
+                                            adjusted, the range of archers has been adjusted and the sniper bug 
+                                            has been fixed. All adjustments are not final and can be undone if necessary.
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">20 JUN 21</div>
+                                            <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/images/img5.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Rework in class for balanced pvp
+                                        </div>
+                                        <div class="news_resume">
+                                            We are working to adjust all classes, so we have made some changes, 
+                                            between buffs and nerfs we have the overloard with its skill reload 
+                                            adjusted, the range of archers has been adjusted and the sniper bug 
+                                            has been fixed. All adjustments are not final and can be undone if necessary.
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">20 JUN 21</div>
+                                            <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/images/img5.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Rework in class for balanced pvp
+                                        </div>
+                                        <div class="news_resume">
+                                            We are working to adjust all classes, so we have made some changes, 
+                                            between buffs and nerfs we have the overloard with its skill reload 
+                                            adjusted, the range of archers has been adjusted and the sniper bug 
+                                            has been fixed. All adjustments are not final and can be undone if necessary.
+                                        </div>
+                                    </a>
+                                </article>
+
+                                <article>
+                                    <a href="">
+                                        <div class="news_data">
+                                            <div class="news_posted_at">20 JUN 21</div>
+                                            <div class="news_comments">2</div>
+                                        </div>
+                                        <div class="news_thumbnail">
+                                            <img src="assets/images/img5.jpg" alt="">
+                                        </div>
+                                        <div class="news_title">
+                                            Rework in class for balanced pvp
+                                        </div>
+                                        <div class="news_resume">
+                                            We are working to adjust all classes, so we have made some changes, 
+                                            between buffs and nerfs we have the overloard with its skill reload 
+                                            adjusted, the range of archers has been adjusted and the sniper bug 
+                                            has been fixed. All adjustments are not final and can be undone if necessary.
+                                        </div>
+                                    </a>
+                                </article>
+                            </div>
+                        </div>
+                </section>
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title">
+                            <div class="widget_title_text">Videos</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_body">
+                                <div class="w_b_column1">
+                                    <div class="area_video_1">
+
+                                    </div>
+                                    <div class="area_video_2">
+
+                                    </div>
+                                </div>
+                                <div class="w_b_column2">
+                                    <div class="area_video_3">
+
+                                    </div>
+                                    <div class="area_video_4">
+
+                                    </div>
+                                </div>
+                                <div class="w_b_column3">
+                                    <div class="area_video_5">
+
+                                    </div>
+                                    <div class="area_video_6">
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Contact Us</div>
+                                <div class="widget_title_bar"></div>
+                                <div class="widget_body">
+                                    <div class="w_b_text">You can contact us using the following means:</div>
+                                    <hr>
+                                    <div class="w_b_phone">
+                                        <div class="phone_icon"></div>
+                                        <div class="phone_text">by phone: <b>(21)99999-9999</b></div>
+                                    </div><hr>
+                                    <div class="w_b_mail">
+                                        <div class="mail_icon"></div>
+                                        <div class="mail_text">by e-mail:</div>
+                                        <a>exemplo@exemplo.com</a>
+                                    </div><hr>
+                                    <div class="w_b_facebook">
+                                        <div class="fb_icon"></div>
+                                        <a href="">www.facebook.com/example</a>
+                                    </div><hr>
+                                </div>
+                            </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <footer>
+            <div class="container flexColumn">
+                <div class="footer_menu">
+                     <div class="fm_1">
+                         <div class="fm_title">Contact Us</div>
+                         <div class="fm_text"> <a href="">Contact us for access →</a> </div>
+                     </div>
+                     <div class="fm_2">
+                        <div class="fm_title">Forum</div>
+                        <div class="fm_text"><a href="">Ask your questions and promote debates →</a></div>
+                    </div>
+                    <div class="fm_3">
+                         <div class="fm_title">Vote System</div>
+                         <div class="fm_text"><a href="">Vote and receive rewards →</a></div>
+                    </div>
+                </div>
+                <div class="footer_area">
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">About Us</div>
+                                <div class="widget_title_bar"></div>
+                                <div class="widget_body">
+                                    We are old players and lineage 2 admirers who decided to recreate an 
+                                    interlude server that can remember the old days. <br><br>
+                                    <div class="w_b_mid">
+                                        <span>
+                                            <p>Lineage II Balanced</p>
+                                        </span>
+                                        <span>
+                                            <p>BxD Street</p> <p>+021 021 021</p>
+                                        </span>
+                                        <span>
+                                            <p>Rio de Janeiro</p> <p>+021 021 021</p>
+                                        </span>
+                                        <span>
+                                            <p>BRZ 5521, Brazil</p> <p>example@example</p>
+                                        </span>
+                                    </div>
+                                    <div class="w_b_down">
+                                        <img src="assets/images/iconfacebook.png" alt="">
+                                        <img src="assets/images/icontwiter.png" alt="">
+                                        <img src="assets/images/iconcalendar.png" alt="">
+                                        <img src="assets/images/iconmsg.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                                <div class="widget_body">
+                                    <a href="" id="l_post">
+                                        → YouAreDeath: The changes made to the overloard were 
+                                        important to balance the gameplay what did you think?
+                                    </a>
+                                    <p>30 min ago</p> 
+                                </div>
+                                <div class="widget_body">
+                                    <a href="" id="l_post">
+                                        → TheMercenary: I discovered a new necromancer bug, 
+                                        could any moderators accept the report to investigate? I have prints. 
+                                    </a>
+                                    <p>2 hours ago</p> 
+                                </div>
+                                <div class="widget_body">
+                                    <a href="" id="l_post">
+                                        → Haytor: I'm a beginner and I have some questions regarding the server could someone help me? 
+                                    </a>
+                                    <p>16 hours ago</p> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_areaitem">
+                        <div class="widget">
+                            <div class="widget_title">
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                                <div class="widget_body">
+                                    <a class="flex" id="l_post" href="">
+                                        → @DeniseLTW: The best server today, let's go from <p id="hashtag">#l2balanced</p> guys??? 
+                                    </a>
+                                    <p>7 min ago</p>
+                                </div>
+                                <div class="widget_body">
+                                    <a class="flex" id="l_post" href="">
+                                        → @LouisFrederick38: When will the new class updates be implemented?<p id="hashtag">#l2balanced</p> 
+                                    </a>
+                                    <p>3 hours ago</p>
+                                </div>
+                                <div class="widget_body">
+                                    <a class="flex" id="l_post" href="">
+                                        → @TheLastWarriorL2: Good morning guys, access my live on youtube and on twitch TheLastWarrior is my channel, also access through the links in the post:
+                                        Youtube:<a href="" id="link"> https://www.youtube.com/c/TheLastWarriorL2</a>
+                                        Twitch:<br/><a href="" id="link"> https://www.twitch.tv/TheLastWarriorL2</a><br/>
+                                        <p id="hashtag">#l2balanced</p> 
+                                    </a>
+                                    <p>5 hours ago</p>
+                                </div>
+                            </div>
+                        </div>        
+                    </div>
+                </div>
+                <div class="footer_copy">
+                    ® 2021 Lineage II Balanced. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

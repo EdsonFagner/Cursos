@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Chilanka|Indie+Flower&display=swap" rel="stylesheet"> 
+
+    </head>
+    <body>
+    
+        <!--Tag de bsucas-->
+        <input type="search" name="search"/><br/><br/>
+
+        <form method="POST">
+            <label>
+                E-mail:<br/>
+                <!--A tag required garante que só será enviado com o campo preenchido e validado-->
+                <input type="email" name="email" required/>
+            </label>
+            <input type="submit" value="Enviar" />
+            <br/><br/>
+            <input type="url" name="url"><br/>
+            <!--Na tag range podemos definir as propriedades minimo e maximo-->
+            <input type="range" min="1" max="100"/>
+        </form>
+    </body>
+</html>

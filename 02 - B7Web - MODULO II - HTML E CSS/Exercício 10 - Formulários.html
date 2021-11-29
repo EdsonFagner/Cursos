@@ -1,0 +1,31 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<title>Pagina de teste</title>
+	</head>
+
+	<body>
+		<form method="POST"> <!--o parametro method tem dois estilos POST/GET, POST envio interno, GET envia os dados juntos com a URL -->
+		<!-- parametro action direciona p/ onde vai o envio de dados, não contendo nenhum envia para o próprio arquivo do código -->
+		Usuário: <br/>
+		<input type="text" name="Login" value="Edson"/><br/><br/> <!-- parametro type adicionas caixas de varios tipos como: text, password, radio, checkbox, submit e etc... -->
+		<!-- o value nesse caso faz com que o campo já venha preenchido -->
+		<!-- parametro name inseri o nome do campo-->
+		Senha: <br/>
+		<input type="password" name="Senha"/><br/><br/>
+		<textarea name="Campo"></textarea><br/><br/> <!-- Campo para digitar textos maiores -->
+
+		<select name="Opções" >
+			<option value="1">Campo 1</option><!-- aqui o value especifica o valor que o campo está enviando -->
+			<option value="2">Campo 2</option>
+			<option value="3">Campo 3</option>
+		</select><br/><br/>
+		<input type="submit" value="Enviar"/><br/><br/> <!-- parametro value é o nome que irá aparecer no botão-->
+		<input type="radio" name="radio" value="1"/>Opção 1<br/><br/>
+		<input type="radio" name="radio" value="2"/>Opção 2<br/><br/>
+		<input type="radio" name="radio" value="3"/>Opção 3<br/><br/>
+		</form>
+	</body>
+
+</html>

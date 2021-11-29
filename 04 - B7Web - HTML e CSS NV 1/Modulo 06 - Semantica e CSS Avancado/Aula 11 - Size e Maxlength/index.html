@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+        <!--O parâmetro size="" ele indica quantos caracters aparecerão no campo-->
+        <!--O ideal não é setar o campo com size="" e sim com CSS uusando o "width:"-->
+        <!--O parâmetro maxlength="" serve para limitar quantos caracteres o usuário insere no campo-->
+        <form method="POST">
+            Usuário:<br/>
+            <input type="text" name="usuario" maxlength="16"/><br/><br/>
+
+            Senha:<br/>
+            <input type="password" name="senha" maxlength="16"/><br/><br/>
+
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>

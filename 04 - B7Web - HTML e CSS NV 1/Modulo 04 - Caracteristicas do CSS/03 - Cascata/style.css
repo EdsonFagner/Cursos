@@ -1,0 +1,9 @@
+/*Os estilos no CSS são lidos de cima pra baixo e de fora pra dentro por tanto o estilo 'inline' é oq tem prioridade
+nessa hierarquia após temos o 'interno' que é aplicado no 'head' e por ultimo o 'externo' que é aplicado por outro arquivo 
+tendo as prioridades nessa ordem*/
+body {
+    margin: 0;
+}
+.container {
+    color: #FF0000;
+}

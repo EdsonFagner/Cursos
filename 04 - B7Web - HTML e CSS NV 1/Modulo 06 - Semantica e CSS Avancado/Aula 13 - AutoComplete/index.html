@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Página de teste</title>
+        <link rel="stylesheet" href="style.css"/>
+
+    </head>
+    <body>
+        <!--O atributo autocomplete="" serve para salvar oq já foi digitado alguma vez no campo-->
+        <!--Podemos desabilitar essa função botando "off" como parâmetro de autocomplete-->
+        <form method="POST">
+            Usuário:<br/>
+            <input type="email" name="email" required autocomplete="off"/><br/><br/>
+
+            Senha:<br/>
+            <input type="password" name="senha" required/><br/><br/>
+
+            <input type="submit" value="Enviar"/>
+        </form>
+    </body>
+</html>

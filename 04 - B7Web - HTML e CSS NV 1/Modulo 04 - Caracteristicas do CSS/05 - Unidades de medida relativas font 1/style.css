@@ -1,0 +1,20 @@
+/*Unidade de medida 'em', está unidade é baseada no font-size do elemento anterior na hierarquia, ou seja, 
+se o elemento anterior tem '20px', '10em' será igual a '200px'*/
+/*Unidade de medida 'rem', está unidade é baseada no primeiro elemento da estrutura, ou seja, se um elemento
+está dentro da tag 'html' e usa a unidade de medida 'rem' este elemento irá se basear no font-size da tag 'html', 
+ou se 'html' não tiver um valor definido ele irá se basear no elemento mais acima na hierarquia. Quando não
+se especifica um valor para o 'rem' em uma hierarquia acima ele equivale a 16px*/
+html {
+    font-size: 10px;
+}
+h1 {
+    font-size: 3rem;
+}
+.box {
+    font-size: 2rem;
+}
+.box-interno {
+    width: 20rem;
+    height: 20rem;
+    background-color: #999;
+}

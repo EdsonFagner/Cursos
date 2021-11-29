@@ -1,0 +1,16 @@
+/*'inherit', este comando serve para herdar a força a herança do elemento anterior na hierarquia*/
+body {
+    margin: 0;
+}
+.box {
+    font-size: 20px;
+    color: blue;
+}
+h1 {
+    font-size: 30px;
+    color: red;
+}
+.box h1 {
+    font-size: inherit;
+    color: inherit;
+}

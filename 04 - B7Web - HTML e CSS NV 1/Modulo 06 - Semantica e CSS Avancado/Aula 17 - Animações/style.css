@@ -1,0 +1,36 @@
+
+@keyframes exemplo {
+    /*Cada porcentagem representa um frame*/
+    /*As porcentagens vão de 0 até 100*/
+    /*As porcentagem representa quantos porcento de tempo decorrido entre os segundos da animação*/
+    /*Podemos também trocar os elementos de posição usando as direções, left, right, top e bottom*/
+    /*Podemos também utilizar diversas propriedades como aumentar e diminuir tamanho e etc...*/
+    0% {background-color: red;top:0;left:0;}
+    25%{background-color: yellow;top:0;left:200px;}
+    50%{background-color: blue;top:200px; left:200px;}
+    75%{background-color: green;top:200px; left:0;}
+    100%{background-color: red;top:0;left:0;}
+}
+
+* {
+    box-sizing: border-box;
+}
+body{
+    margin:0px;
+}
+
+.exemplo {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position:absolute;
+    /*Priemiro setamos a animação*/
+    animation-name:exemplo; 
+    /*Depois dizemos quantos segundos irá durar a animação*/
+    animation-duration: 4s;
+    /*Podemos também adicionar um tempo de espera no qual a animação só irá começar após ele*/
+
+    /*Usamos essa função para dizer quantas vezes queremos que a animação seja executada*/
+    /*Para repetir infinitamente utilizamos "infinite" no lugar da quantidade de vezes*/
+    animation-iteration-count: 3;
+}
